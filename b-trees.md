@@ -2,7 +2,9 @@
 
 B-tree is a special type of self-balancing search tree in which each node can contain more than one key and can have more than two children. It is a generalized form of the binary search tree.
 
-
+## Table of content
+ - b-trees/
+     - [Why do we need a b-tree data structure?](#why-do-we-need-a-B-tree-data-structure?)
 
 Also known as a height-balanced m-way tree.
 ![image](https://user-images.githubusercontent.com/46763901/164933769-0947b957-a252-4375-bac5-83244fc9f77b.png)
