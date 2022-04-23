@@ -18,7 +18,9 @@ Other data structures such as BST, AVL tree, red-black tree, etc. can only store
 B-trees, on the otherhand, can store many keys in a single node and can have multiple child nodes. This decreases the height significantly allowng faster disk accesses.
 
 ## Properties
-
+- For each node `x`, the keys are stored in increasing order.
+- In each node, there is a boolean value `x.leaf` which is true if x is a leaf.
+- If `n` is the order of the tree, each internal node can contain at mode `n-1` keys along with a pointer to each child.
 
 
 
