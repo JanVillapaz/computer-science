@@ -5,10 +5,10 @@ Intro
 
 Haskell is a purely functional language. It has been specially designed to handle symbolic computation and list processing applications. 
 
-**Functional programming:** Based on mathematical functions.
-Examples of other functional programming paradigm: Lisp, Python, Erlang, Racket, F#, Clojure, etc.
-In **conventional programming**, instructions are taken as a set of declarations in a specific syntax or format
-In **functional programming**, all the computation is considered as a combination of separate mathematical functions.
+- **Functional programming:** Based on mathematical functions.
+- **Examples of other functional programming paradigm:** Lisp, Python, Erlang, Racket, F#, Clojure, etc.
+- In **conventional programming**, instructions are taken as a set of declarations in a specific syntax or format
+- In **functional programming**, all the computation is considered as a combination of separate mathematical functions.
 
 #### Few points why this language is special
 - **Functional language:** In a conventional language, we instruct the compiler a series of tasks which is nothing but telling your computer “What to do” and “how to do?”. But in Haskell, we tell out computer “what it is?”.
