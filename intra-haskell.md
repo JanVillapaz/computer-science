@@ -10,7 +10,7 @@ Examples of other functional programming paradigm: Lisp, Python, Erlang, Racket,
 In **conventional programming**, instructions are taken as a set of declarations in a specific syntax or format
 In **functional programming**, all the computation is considered as a combination of separate mathematical functions.
 
-### Few points why this language is special
+#### Few points why this language is special
 **Functional language:** In a conventional language, we instruct the compiler a series of tasks which is nothing but telling your computer “What to do” and “how to do?”. But in Haskell, we tell out computer “what it is?”.
 **Laziness:** Haskell is a lazy language. By lazy, we mean that Haskell won’t evaluate any expression without any reason. When the evaluation engine finds that an expression needs to be evaluated, then it creates a **thunk data structure** to collect all the required information for that specific evaluation and a pointer to that thunk data structure. The evaluation engine will start working only when it is required to evaluate that specific expression.
 **Thunk:** a subroutine used to inject a calculation into another subroutine.
@@ -32,5 +32,14 @@ Once the Haskell compiler encounters the above piece of code, it promptly yields
 ```console
 Hello World
 ```
+
+Basic Data Models
+-
+
+Haskell is a purely functional programming language, hence it is much more interactive and intelligent than other programming languages. In this part, we will learn about the basic data models which are actually predefined or somehow intelligently decoded into the computer memory.
+
+#### Numbers
+Haskell is intelligent enough to decode that some numbers are in fact numbers. Therefore, you need not mention its type externally as we usually do in the case of other programming languages. As per example, we can go to our prelude command prompt and jun run "2 + 2" and hit enter.
+
 
 
