@@ -73,3 +73,17 @@ It will produce
 ```
 
 The entire string has been decoded as an array of Char only. 
+
+#### Boolean
+Boolean data type is also pretty much straightforward like other data type. Look at the following example. 
+
+```Haskall
+Prelude> True && True
+True
+Prelude> True && False
+False
+Prelude> True || True
+True
+Prelude> True || False
+True
+```
