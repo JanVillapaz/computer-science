@@ -44,6 +44,15 @@ Haskell is intelligent enough to decode that some numbers are in fact numbers. T
 We passed two numbers as arguments to the GHCI compiler without predefining their type, but the compiler easily decoded that the to entries as numbers.
 
 #### Characters
+Like numbers, Haskell can intelligently identify a character given in as an input to it. On your Haskell command prompt, type any character with double or single quotation.
 
+```haskell
+Prelude> :t "a"
+```
+
+It will produce
+```console
+"a" :: [Char]
+```
 
 
