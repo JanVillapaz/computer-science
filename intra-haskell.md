@@ -119,3 +119,24 @@ Prelude> [x | x<-[1..5]]
 [1,2,3,4,5]
 ```
 This method of creating one List using mathematical expression is called a **List Comprehension**.
+
+#### Tuple
+
+Haskell provides another way to declare multiple values in a single data type. It is known as **Tuple**. A Tuple can be considered as a List, however there are some technical differences in between a Tuple and a List.
+
+A Tuple is an immutable data type, as we cannot modify the number of elements at runtime, whereas a List is a mutable data type.
+
+On the other hand, List is a homogenous data type, but a Tuple is heterogenous in nature, because a Tuple may contain different type of data inside it.
+
+Tuples are represented by single parenthesis. Take a look at the following example to see how Haskell treats a Tuple.
+
+```haskell
+Prelude> (1,1,'a')
+```
+
+It will produce
+```haskell
+(1,1,'a')
+```
+
+In the above example, we have used one Tupe with two **number** type variables, and a **char** type variable.
