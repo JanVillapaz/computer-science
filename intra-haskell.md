@@ -89,4 +89,33 @@ True
 ```
 
 #### List and List Comprehension
-Like other data tyles, List*** is also a very useful data type used in Haskell. As per example,
+Like other data tyles, List*** is also a very useful data type used in Haskell. As per example, [a,b,c] is a ist of characters, hence, by definition, List is a collection of same data type separated by comma.
+
+Like other data types, you need not declare a List as a List. Haskell is intelligent enough to decode your input by looking at the syntax in the expression.
+
+Take a look at the following example which shows how Haskell treats a List
+
+```Haskell
+Prelude> [1,2,3,4,5]
+```
+
+It will produce
+```console
+[1,2,3,4,5]
+```
+
+List in Haskell are homogenous in nature, which means they won't allow you to declare a list of different kind of data type. Any list like [1,2,3,4,5,a,c,b,d,e,f] will produce an error.
+
+
+#### List Comprehension
+List comprehension is the process of generation a list using mathematical expression. Look at the following example where we are generating a list using mathematical expression in the format of [output | range, condition].
+
+```haskell
+Prelude> [x*2| x<-[1..10]]
+[2,4,6,8,10,12,14,16,18,20]
+Prelude> [x*2] x<-[1..5]]
+[2,4,6,8]
+Prelude> [x | x<-[1..5]]
+[1,2,3,4,5]
+```
+This method of creating one List using mathematical expression is called a **List Comprehension**.
