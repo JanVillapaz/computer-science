@@ -87,3 +87,6 @@ True
 Prelude> True || False
 True
 ```
+
+#### List and List Comprehension
+Like other data tyles, List*** is also a very useful data type used in Haskell. As per example,
