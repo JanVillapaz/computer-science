@@ -39,7 +39,11 @@ Basic Data Models
 Haskell is a purely functional programming language, hence it is much more interactive and intelligent than other programming languages. In this part, we will learn about the basic data models which are actually predefined or somehow intelligently decoded into the computer memory.
 
 #### Numbers
-Haskell is intelligent enough to decode that some numbers are in fact numbers. Therefore, you need not mention its type externally as we usually do in the case of other programming languages. As per example, we can go to our prelude command prompt and jun run "2 + 2" and hit enter.
+Haskell is intelligent enough to decode that some numbers are in fact numbers. Therefore, you need not mention its type externally as we usually do in the case of other programming languages. As per example, we can go to our prelude command prompt and jun run "2 + 2" and hit enter. You get "4".
+
+We passed two numbers as arguments to the GHCI compiler without predefining their type, but the compiler easily decoded that the to entries as numbers.
+
+#### Characters
 
 
 
