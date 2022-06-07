@@ -77,7 +77,7 @@ The entire string has been decoded as an array of Char only.
 #### Boolean
 Boolean data type is also pretty much straightforward like other data type. Look at the following example. 
 
-```Haskall
+```Haskell
 Prelude> True && True
 True
 Prelude> True && False
