@@ -19,7 +19,7 @@ This site contains notes I've taken to prepare for exams.
                  + [extra.c](#)
          - [random](#)
      + etc/
- -[Haskell](/)
-     + exams
+ - [Haskell](/)
+     + exams/
          - [midterm-revision](/intra-haskell.md)
 
