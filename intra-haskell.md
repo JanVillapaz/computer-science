@@ -55,4 +55,6 @@ It will produce
 "a" :: [Char]
 ```
 
+Remember you use (**:t**) while supplying the input. In the above, **(:t)** is to include the specific type related to the inputs. We will learn more about this type in the upcoming chapters.
 
+Haskell follows conventional ASCII encoding style.
