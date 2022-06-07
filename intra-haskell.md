@@ -58,3 +58,18 @@ It will produce
 Remember you use (**:t**) while supplying the input. In the above, **(:t)** is to include the specific type related to the inputs. We will learn more about this type in the upcoming chapters.
 
 Haskell follows conventional ASCII encoding style.
+
+#### String
+
+A string is nothing but a collection of characters. There is no specific syntax for using string, but Haskell follows the conventional style of representing a string with double quotation.
+
+```Haskell
+Prelude> :t "testing"
+```
+
+It will produce
+```console
+"testing" :: [Char]
+```
+
+The entire string has been decoded as an array of Char only. 
